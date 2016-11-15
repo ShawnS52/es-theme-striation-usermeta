@@ -1,0 +1,31 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../common.xml</include>
+	<include>./../common/templates/portrait.xml</include>	
+
+	<view name="system">
+	<!-- System Specific Images -->
+		<image name="logo">
+			<path>./logo_megadriveEU.svg</path>
+        </image>
+	</view>
+
+	<view name="basic, detailed">
+	<!-- System Specific Images -->
+		<image name="logo">
+			<path>./logoconsole.svg</path>
+	<!-- Logo Alignment Specific to bgconsole.png -->
+			<origin>0 0.63</origin>
+			<pos>0.02 0.0450</pos>
+			<maxSize>0.93 0.21</maxSize>			
+		</image>
+
+		<image name="background" extra="true">
+			<path>./bgconsoleEU.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<tile>false</tile>
+</image>
+	</view>
+</theme>

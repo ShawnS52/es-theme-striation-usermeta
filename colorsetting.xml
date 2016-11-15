@@ -1,0 +1,72 @@
+<theme>
+    <formatVersion>3</formatVersion>	
+
+<!-- System View -->
+	<view name="system">
+	
+	<!-- Page Layout -->
+		<image name="background" extra="true">
+			<path>./common/images/bgmain.png</path>
+			    <origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<size>1 1</size>
+				<tile>false</tile>
+		</image>
+	
+		<helpsystem name="help">
+			<textColor>5E5E5E</textColor>
+			<iconColor>5E5E5E</iconColor>
+		</helpsystem>
+	</view>	
+	
+<!-- Game View - All -->
+    <view name="basic, detailed">
+	
+	<!-- Page Layout -->
+		<image name="background" extra="true">
+			<path>./common/images/bgmain.png</path>
+			    <origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+			<tile>false</tile>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>5E5E5E</textColor>
+			<iconColor>5E5E5E</iconColor>
+		</helpsystem>		
+		
+	<!-- Game List -->
+		<textlist name="gamelist">
+			<primaryColor>9a9999</primaryColor>
+			<secondaryColor>9a9999</secondaryColor>
+			<selectorColor>27272700</selectorColor>
+			<selectedColor>e5e5e5</selectedColor>
+		</textlist>
+	</view>
+
+<!-- Game View - Detailed -->
+	<view name="detailed">
+	
+	<!-- Metadata -->			
+		<text name="md_lbl_players, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount">
+			<color>8d8d8d</color>
+		</text>
+		
+		<text name="md_players, md_genre, md_developer, md_publisher, md_rating, md_lastplayed, md_playcount">
+			<color>e5e5e5</color>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<color>e5e5e5</color>
+		</datetime>
+		
+	<!-- Description -->
+		<image name="description-matte" extra="true">
+			<color>27272700</color>
+		</image>
+		
+		<text name="md_description">
+			<color>e5e5e5</color>
+		</text>		
+	</view>	
+</theme>

@@ -1,0 +1,97 @@
+<!--
+theme name:		Striation-UserMeta
+version:		1.0
+author:			ShawnS
+license:		creative commons CC-BY-NC-SA
+based on:		"Eudora" by AmadhiX
+				"carbon" by eric hettervik
+				"simple" by nils bonenberger
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+	<include>./colorsetting.xml</include>
+	
+<!-- System View -->
+	<view name="system">	
+	
+	<!-- Page Layout -->
+		<image name="background" extra="true">
+			<path>./common/images/bgmain.png</path>
+			    <origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<size>1 1</size>
+				<tile>false</tile>
+		</image>
+	</view>
+
+<!-- Game View - All -->
+    <view name="basic, detailed">
+	
+	<!-- Page Layout -->
+		<image name="background" extra="true">		
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<tile>true</tile>
+		</image>
+			 
+	<!-- Game List -->
+		<textlist name="gamelist">
+			<fontPath>./common/fonts/OpenSans-Bold.ttf</fontPath>
+			<pos>0.005 0.2100</pos>
+			<size>0.300 0.71</size>
+			<fontSize>0.03</fontSize>
+			<lineSpacing>1.51</lineSpacing>
+			<horizontalMargin>0.015</horizontalMargin>
+			<alignment>left</alignment>
+		</textlist>
+	</view>
+
+<!-- Game View - Basic -->
+	<view name="basic">
+			
+	<!-- Game List -->
+		<image name="gamelist-matte" extra="true">
+			<size>0.4 0.7745</size>
+		</image>
+		
+		<textlist name="gamelist">
+			<size>0.4 0.71</size>
+		</textlist>
+	</view>
+
+<!-- Game View - Detailed -->
+	<view name="detailed">
+	
+	<!-- Metadata -->
+		<text name="md_lbl_players, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount">
+			<fontPath>./common/fonts/OpenSans-Semibold.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<forceUppercase>0</forceUppercase>		
+			<size>0 0</size>
+		</text>
+		
+		<text name="md_players, md_genre, md_developer, md_publisher, md_rating, md_lastplayed, md_playcount">
+			<fontPath>./common/fonts/OpenSans-Regular.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<size>0 0</size>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<fontPath>./common/fonts/OpenSans-Regular.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+		</datetime>
+		
+	<!-- Description -->
+		<text name="md_description">
+			<fontPath>./common/fonts/OpenSans-Semibold.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+		</text>
+	
+		<datetime name="md_lastplayed">
+			<fontPath>./common/fonts/OpenSans-Semibold.ttf</fontPath>
+		</datetime>
+	</view>
+
+</theme>

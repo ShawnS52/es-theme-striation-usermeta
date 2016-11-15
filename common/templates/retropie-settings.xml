@@ -1,0 +1,103 @@
+<theme>
+    <formatVersion>3</formatVersion>
+	
+<!-- Game View - Detailed -->
+	<view name="detailed">
+	
+	<!-- Game Image -->
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.444 0.5300</pos>
+			<maxSize>0.3571 0.5379</maxSize>
+		</image>
+		
+	<!-- Metadata -->
+		<!-- Limit the length of the metadata  -->
+		<text name="md_players, md_genre, md_developer, md_publisher, md_releasedate">
+			<size>0.2200 0.023</size>
+		</text>
+		
+		<text name="md_lbl_players"> 
+			<pos>0.6000 0.2000</pos>
+			<color>171717</color>
+		</text>		
+		<text name="md_players"> 
+			<pos>0.6030 0.2500</pos>	
+			<color>171717</color>			
+		</text>		
+		
+		<text name="md_lbl_genre">
+			<pos>0.6000 0.2950</pos>
+			<color>171717</color>
+		</text>		
+		<text name="md_genre">
+			<pos>0.6030 0.3450</pos>
+			<color>171717</color>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<pos>0.6000 0.3900</pos>
+			<color>171717</color>
+		</text>		
+		<text name="md_developer">
+			<pos>0.6030 0.4400</pos>
+			<color>171717</color>
+		</text>		
+		
+		<text name="md_lbl_publisher">
+			<pos>0.6000 0.4850</pos>
+			<color>171717</color>
+		</text>		
+		<text name="md_publisher">
+			<pos>0.6030 0.5350</pos>
+			<color>171717</color>
+		</text>		
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.8500 0.4850</pos>
+			<color>171717</color>
+		</text>		
+		<datetime name="md_releasedate">
+			<pos>0.8535 0.5350</pos>	
+			<color>171717</color>
+		</datetime>		
+
+<!-- User Meta Positioning 	-->
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.8500 0.2000</pos>
+			<color>171717</color>
+		</text>		
+		<datetime name="md_lastplayed">
+			<pos>0.8535 0.2620</pos>	
+			<color>171717</color>
+		</datetime>	
+
+		<text name="md_lbl_playcount">
+			<pos>0.8500 0.2950</pos>
+			<color>171717</color>
+		</text>		
+		<text name="md_playcount">
+			<pos>0.8535 0.3300</pos>	
+			<color>171717</color>
+		</text>
+		
+		<text name="md_lbl_rating">
+			<pos>0.8500 0.3900</pos>
+			<color>171717</color>
+		</text>		
+		<text name="md_rating">
+			<pos>0.8535 0.4350</pos>
+			<size>0.0 0.0</size>
+		</text>	
+		
+	<!-- Description -->		
+		<text name="md_description">
+			<fontSize>0.03</fontSize>
+			<lineSpacing>1.51</lineSpacing>
+			<pos>0.6000 0.6397</pos>
+			<size>0.38 0.225</size>			
+		</text>
+	</view>
+	
+</theme>
